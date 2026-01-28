@@ -53,8 +53,8 @@ describe("mylib.js (expect skeleton)", () => {
         "Invalid arguments: both arguments must be numbers.",
       )
     })
-    it("should throw error if either argument is zero", function () {
-      expect(() => divide(0, 3)).to.throw("Division by zero is not allowed.")
+    it("should throw error if second argument is zero", function () {
+      expect(() => divide(2, 0)).to.throw("Division by zero is not allowed.")
     })
   })
 })
