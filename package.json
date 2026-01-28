@@ -1,0 +1,20 @@
+{
+  "name": "myname",
+  "version": "1.0.0",
+  "description": "Project with Mocha and Chai testing",
+  "main": "unittest.js",
+  "directories": {
+    "test": "unittest"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^11.7.5"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2"
+  }
+}
